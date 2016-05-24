@@ -28,7 +28,7 @@ function mylocation() {
                'India') flag='🇮🇳';;
            'Indonesia') flag='🇮🇩';;
              'Ireland') flag='🇮🇪';;
-              'Israel') flag='🇮🇱';;
+              'Israel') flag='🇵🇸';;
                'Italy') flag='🇮🇹';;
                'Japan') flag='🇯🇵';;
            'Lithuania') flag='🇱🇹';;
