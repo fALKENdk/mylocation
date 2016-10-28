@@ -62,6 +62,7 @@ function mylocation() {
             'Thailand') flag='🇹🇭';;
               'Turkey') flag='🇹🇷';;
              'Ukraine') flag='🇺🇦';;
+             'Uruguay') flag='🇺🇾';;
        'United States') flag='🇺🇸';;
 'United Arab Emirates') flag='🇦🇪';;
       'United Kingdom') flag='🇬🇧';;
