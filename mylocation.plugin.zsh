@@ -33,11 +33,14 @@ function mylocation() {
                'Japan') flag='🇯🇵';;
            'Lithuania') flag='🇱🇹';;
           'Luxembourg') flag='🇱🇺';;
+               'Macau') flag='🇲🇴';;
             'Malaysia') flag='🇲🇾';;
+            'Maldives') flag='🇲🇻';;
               'Mexico') flag='🇲🇽';;
          'Netherlands') flag='🇳🇱';;
          'New Zealand') flag='🇳🇿';;
               'Norway') flag='🇳🇴';;
+            'Pakistan') flag='🇵🇰';;
               'Panama') flag='🇵🇦';;
          'Philippines') flag='🇵🇭';;
               'Poland') flag='🇵🇱';;
