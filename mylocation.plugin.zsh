@@ -9,25 +9,38 @@ function mylocation() {
    country=$(cut -d',' -f3 <<< $location)
 
   case $country in
+       'Aland Islands') flag='🇦🇽';;
+             'Albania') flag='🇦🇱';;
              'Algeria') flag='🇩🇿';;
+             'Andorra') flag='🇦🇩';;
            'Argentina') flag='🇦🇷';;
            'Australia') flag='🇦🇺';;
              'Austria') flag='🇦🇹';;
              'Bahrain') flag='🇧🇭';;
+             'Belarus') flag='🇧🇾';;
              'Belgium') flag='🇧🇪';;
+              'Bosnia') flag='🇧🇦';;
               'Brazil') flag='🇧🇷';;
+            'Bulgaria') flag='🇧🇬';;
               'Canada') flag='🇨🇦';;
             'Colombia') flag='🇨🇴';;
           'Costa Rica') flag='🇨🇷';;
+             'Croatia') flag='🇭🇷';;
       'Czech Republic') flag='🇨🇿';;
+              'Cyprus') flag='🇨🇾';;
              'Denmark') flag='🇩🇰';;
+             'Estonia') flag='🇪🇪';;
                'Egypt') flag='🇪🇬';;
          'El Salvador') flag='🇸🇻';;
+       'Faroe Islands') flag='🇫🇴';;
              'Finland') flag='🇫🇮';;
               'France') flag='🇫🇷';;
+             'Georgia') flag='🇬🇪';;
              'Germany') flag='🇩🇪';;
+           'Gibraltar') flag='🇬🇮';;
               'Greece') flag='🇬🇷';;
            'Hong Kong') flag='🇭🇰';;
+             'Hungary') flag='🇭🇺';;
              'Iceland') flag='🇮🇸';;
                'India') flag='🇮🇳';;
            'Indonesia') flag='🇮🇩';;
@@ -36,12 +49,18 @@ function mylocation() {
                'Italy') flag='🇮🇹';;
                'Japan') flag='🇯🇵';;
               'Latvia') flag='🇱🇻';;
+       'Liechtenstein') flag='🇱🇮';;
            'Lithuania') flag='🇱🇹';;
           'Luxembourg') flag='🇱🇺';;
                'Macau') flag='🇲🇴';;
+           'Macedonia') flag='🇲🇰';;
             'Malaysia') flag='🇲🇾';;
             'Maldives') flag='🇲🇻';;
+               'Malta') flag='🇲🇹';;
               'Mexico') flag='🇲🇽';;
+             'Moldova') flag='🇲🇩';;
+              'Monaco') flag='🇲🇨';;
+          'Montenegro') flag='🇲🇪';;
          'Netherlands') flag='🇳🇱';;
          'New Zealand') flag='🇳🇿';;
               'Norway') flag='🇳🇴';;
@@ -53,7 +72,9 @@ function mylocation() {
                'Qatar') flag='🇶🇦';;
              'Romania') flag='🇷🇴';;
               'Russia') flag='🇷🇺';;
+          'San Marino') flag='🇸🇲';;
         'Saudi Arabia') flag='🇸🇦';;
+              'Serbia') flag='🇷🇸';;
            'Singapore') flag='🇸🇬';;
             'Slovakia') flag='🇸🇰';;
             'Slovenia') flag='🇸🇮';;
@@ -69,6 +90,7 @@ function mylocation() {
        'United States') flag='🇺🇸';;
 'United Arab Emirates') flag='🇦🇪';;
       'United Kingdom') flag='🇬🇧';;
+             'Vatican') flag='🇻🇦';;
              'Vietnam') flag='🇻🇳';;
                      *) flag=$country;;
   esac
