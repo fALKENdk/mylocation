@@ -9,6 +9,7 @@ function mylocation() {
    country=$(cut -d',' -f3 <<< $location)
 
   case $country in
+             'Algeria') flag='🇩🇿';;
            'Argentina') flag='🇦🇷';;
            'Australia') flag='🇦🇺';;
              'Austria') flag='🇦🇹';;
@@ -20,6 +21,7 @@ function mylocation() {
           'Costa Rica') flag='🇨🇷';;
       'Czech Republic') flag='🇨🇿';;
              'Denmark') flag='🇩🇰';;
+               'Egypt') flag='🇪🇬';;
          'El Salvador') flag='🇸🇻';;
              'Finland') flag='🇫🇮';;
               'France') flag='🇫🇷';;
