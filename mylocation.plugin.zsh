@@ -20,6 +20,7 @@ function mylocation() {
           'Costa Rica') flag='🇨🇷';;
       'Czech Republic') flag='🇨🇿';;
              'Denmark') flag='🇩🇰';;
+         'El Salvador') flag='🇸🇻';;
              'Finland') flag='🇫🇮';;
               'France') flag='🇫🇷';;
              'Germany') flag='🇩🇪';;
