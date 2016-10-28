@@ -23,6 +23,7 @@ function mylocation() {
              'Finland') flag='🇫🇮';;
               'France') flag='🇫🇷';;
              'Germany') flag='🇩🇪';;
+              'Greece') flag='🇬🇷';;
            'Hong Kong') flag='🇭🇰';;
              'Iceland') flag='🇮🇸';;
                'India') flag='🇮🇳';;
@@ -31,6 +32,7 @@ function mylocation() {
               'Israel') flag='🇵🇸';;
                'Italy') flag='🇮🇹';;
                'Japan') flag='🇯🇵';;
+              'Latvia') flag='🇱🇻';;
            'Lithuania') flag='🇱🇹';;
           'Luxembourg') flag='🇱🇺';;
             'Malaysia') flag='🇲🇾';;
@@ -47,6 +49,8 @@ function mylocation() {
               'Russia') flag='🇷🇺';;
         'Saudi Arabia') flag='🇸🇦';;
            'Singapore') flag='🇸🇬';;
+            'Slovakia') flag='🇸🇰';;
+            'Slovenia') flag='🇸🇮';;
          'South Korea') flag='🇰🇷';;
                'Spain') flag='🇪🇸';;
               'Sweden') flag='🇸🇪';;
@@ -54,6 +58,7 @@ function mylocation() {
               'Taiwan') flag='🇹🇼';;
             'Thailand') flag='🇹🇭';;
               'Turkey') flag='🇹🇷';;
+             'Ukraine') flag='🇺🇦';;
        'United States') flag='🇺🇸';;
 'United Arab Emirates') flag='🇦🇪';;
       'United Kingdom') flag='🇬🇧';;
