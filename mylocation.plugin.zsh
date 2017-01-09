@@ -37,6 +37,7 @@ function mylocation() {
                         'Cambodia') flag='🇰🇭';;
                           'Canada') flag='🇨🇦';;
                   'Cayman Islands') flag='🇰🇾';;
+                           'China') flag='🇨🇳';;
                         'Colombia') flag='🇨🇴';;
                    'Cocos Islands') flag='🇨🇨';;
                       'Costa Rica') flag='🇨🇷';;
