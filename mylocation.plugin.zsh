@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 #          FILE: mylocation.plugin.zsh
 #        AUTHOR: Kasper Friis Christensen (kasper[at]friischristensen.com)
-#       VERSION: 1.0.0
+#       VERSION: 1.1.0
 # -----------------------------------------------------------------------------
 function mylocation() {
         ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
