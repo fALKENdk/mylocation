@@ -5,8 +5,7 @@
 # -----------------------------------------------------------------------------
 function mylocation() {
         ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
-  location=$(curl -s freegeoip.net/csv/$ip)
-   country=$(cut -d',' -f3 <<< $location)
+  country=$(curl -s iplocate.io/api/lookup/$ip/csv | sort | sed '$d' | cut -d ',' -f 2)
 
   case $country in
                      'Afghanistan') flag='🇦🇫';;
@@ -147,6 +146,6 @@ function mylocation() {
                            'Yemen') flag='🇾🇪';;
                                  *) flag=$country;;
   esac
-
+  
   echo $flag;
 }
